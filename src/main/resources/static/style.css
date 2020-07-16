@@ -1,0 +1,111 @@
+/*CSS for Karma's Portfolio Webpage*/
+
+/*page*/
+
+#page{ max-width:1200px; margin: 0 auto; position: relative; }
+
+/*Text*/
+
+h1{ margin: 0 0 1em 0; font-size: 2.8em; font-weight: 700;}
+h2{ margin: 0 0 .5em 0; font-size: 1.6em; font-weight: 700;}
+h3{ margin: 0 0 .5em 0; font-size: 1.3em; font-weight: 700;}
+h4{ margin: 0 0 .5em 0; font-size: 1em; font-weight: 700;}
+
+p{ margin: 0 0 1em 0;}
+
+a{ color: #007eff;}
+a:visited{ color: #65b1ff;}
+
+/*header*/
+
+header {
+	height:380px;
+	background-image:url("images/light.jpg"); 
+	background-repeat: no-repeat center bottom;
+	position: relative;
+	}
+	
+header h1{ position: absolute;
+ width: 42%; 
+ top: 120px; 
+ left: 15%; 
+ margin: 0 0 30px 0; 
+ color:white;
+ }
+ 
+
+ /*section all*/
+ section { padding: 0 30px;}
+ section::after {content:''; display: block; clear: both;}
+ 
+ /*home*/
+ section.home {margin: 20px 0 30px 10px; padding: 0;}
+ section.home aside {width: 49%; float: left; text-align:center; font-size:25px;}
+
+ /*About Me*/
+ section.aboutMe {margin: 20px 0 30px 10px; padding: 0;}
+ section.aboutMe aside {width: 33%; float: left; text-align:center;}
+ 
+ section.content {margin: 15px; background-size: 65px 75px; padding-top:85px;}
+ 
+  /*IT Interest*/
+ section.itInterest {margin: 20px 0 30px 10px; padding: 0;}
+ 
+ /*IT Skills*/
+ section.itSkills {margin: 20px 0 30px 10px; padding: 0;}
+ section.itSKills aside {width: 33%; float: left; text-align:center;}
+ 
+ .skills{
+	 text-align:center;
+ }
+ 
+  /*Experience*/
+ section.experience{margin: 20px 0 30px 10px; padding: 0;}
+
+ /*Navigation*/
+ nav {
+	 background-color : rgba(0,0,0,.65);
+	 position:absolute;
+	 top: 0px;
+	 left: 0px;
+	 padding :50px 0 0 0;
+	 width:100%;
+ }
+nav:: after {content:''; display: block; clear: both;}
+ 
+ nav ul { list-style: none; margin: 0; padding: 0;}
+ 
+ nav ul li:hover { background-color: #2b0306}
+ 
+  nav ul li:hover >ul {display :block;}
+ nav ul li a{
+	 display: inline-block;
+	 color: #fff;
+	 padding: 10px 20px;
+	 text-decoration: none;
+	 width:125px;
+	 position: relative;
+ }
+ 
+ nav ul li a:visited { color: #fff}
+ nav ul li a:hover{ background-color: #6d0911;}
+ 
+ nav ul ul {position: absolute; top: 100%: background-color: #2b0306; display: none;}
+ 
+ nav ul ul li { position: relative; }
+ 
+ nav ul ul ul {left: 100%, top: 0px;}
+/*top level*/
+nav>ul {padding-left:200px;}
+nav>ul>li {float: left;}
+nav> ul > li > a { width: auto; padding: 10px 20px 15px; 20px;}
+ 
+ /*Footer*/
+ footer{
+	 background-color:brown;
+	 bottom:0px;
+	 padding:10px;
+	 color:white;
+	 text-align:center;
+ }
+ 

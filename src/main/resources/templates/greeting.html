@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en" data-theme="light">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, inital-scale=1">
+		<title>Karma's Portfolio</title>
+		<link rel="stylesheet" type="text/css" media="screen" href="style.css">
+		<style>
+		<!--inline critical path-->
+		html, body{
+		margin:0;
+		padding:0;
+		font-family: arial helvetica, sans-serif;
+		font-size: 16px;
+		font-weight:300;
+		color:#555;
+		overflow:auto;
+		}
+		</style>
+	</head>
+	<body onload="printComment()">
+
+		<div id="page">
+			<header>
+				<h1>Karma T Gurung</h1>
+			</header>
+            <!--
+			<button onclick="getRandomGreetingUsingAsyncAwait()">Fetch a greeting!</button>
+            <div id="greeting-container"></div>-->
+
+           
+
+					<aside>
+						<img src="images/Karma.jpg" alt="Profile Pic" width="340px" height="286px"></img>
+					</aside>
+					<aside>
+						<p>
+							<p th:text="'Hello, ' + ${name}" /><br>
+							I am Karma Gurung. I am a participant at Year Up.
+							Year Up is a one program that helps young adults gain skills 
+							and internships opportunity to pursue meaningful careers.
+							I choose to be in this program to be able to make time for 
+							learning and practicing technical skills and build a network.
+							I am currently in software development track. I chose this track 
+							as I want to be a software engineer. I love to challenge my self 
+							and create new things. I see myself working in this field for a long time.
+							-Karma T Gurung
+						</p>
+					</aside>
+			</section>
+			
+			<section class="aboutMe">
+			<h2><a href="#">About Me</a></h2>
+			<h3>"First generation programmer advocating Women in Tech." 
+			-Karma T Gurung</h3>
+				<aside>
+					<div class="content">
+						<p>Participant at Software Product Sprint Google</p><br>
+						
+						<p>Participant in Software Development Track Year Up</p><br><br>
+
+						<p>ASc. Computer Science<br>
+						Borough of Manhattan Community College, CUNY<br>
+						Honors: Dean's List (Dec 2018 and June 2019)<br>
+						Award: BMCC Foundation Inc, Academic Scholarship</p>
+					</div>
+				</aside>
+				
+				<aside>
+					<div class="content">
+						<p>May 25- Aug 14, 2020</p><br>
+						
+						<p>Expected Feb, 2021<br><br><br>
+						New York|New Jersey</p>
+
+						<p>May, 2020<br>
+						New York, New York</p>
+					</div>
+				</aside>
+				
+				<aside>
+					<div class="content">
+						<img src="images/google.png" width="180px" height="50px" alt="Google Logo"></img><br>
+						<img src="images/yearup.png" width="180px" height="90px" alt="YearUp Logo"></img><br>
+						<img src="images/bmcc.png" width="180px" height="60px" alt="Bmcc Logo"></img>
+					</div>
+				<aside>
+			</section>
+			
+			<section class="itInterest">
+			<h2><a href="#">IT Interest</a></h2>
+			I am interested in the following specialties:<br>
+			Software Engineering<br>
+			Machine Learning
+			</section>
+			
+			<section class="itSkills">
+			<h2><a href="#">IT Skills</a></h2>
+			<p>
+				Software: C++, Python, Java, HTML5, CSS3, JavaScript, PHP, MySQL, Microsoft Office
+				Version Control: Git, GitHub	 	
+				Designing tools: Adobe XD, Figma				
+				Robotics Programming <br>
+				Languages: Nepali, Hindi
+			</p>
+			<div class="skills">
+				<img src="images/c++.png" width="180px" height="120px" alt="C++ Logo"></img>
+				<img src="images/python.png" width="180px" height="120px" alt="Python Logo"></img>
+				<img src="images/mysql.png" width="180px" height="120px" alt="MySQL Logo"></img>
+				<img src="images/php.jpg" width="180px" height="120px" alt="PHP Logo"></img>
+				<img src="images/github.png" width="200px" height="120px" alt="GitHub Logo"></img>
+			</div>
+			</section>
+			
+			<section class="experience">
+			<h2><a href="#">Experience</a></h2>
+			<aside class="content">	
+				<h3>Peer Mentor at RF CUNY</h3>
+				
+				<p>
+					Co-taught 25 students in (9th grade)<br>
+					Co-taught Robotics (academic course) with lesson plans including
+					Intro to Hardware Construction and Software Programming, Locomotion, 
+					Touch and Color Sensors and Control structure.<br>
+					Engaging students in an entry level coding using LEGO robot.<br>
+				</p>
+			</aside>
+			
+			<aside class="content">
+				<h3>WiTNY Collaborative Computing Research Project: An Assistive Therapeutic Robot</h3>
+		
+				<p>
+					I started this project to create a mental health robot assistant using
+					the NAO humanoid robot for suicidal prevention and mental health data 
+					collection. 	
+					The motivation came from lack of the therapeutic and holistic support
+					for people with mental health issues.
+					The video on the right shows the interaction between me and NAO robot 
+					using the script I wrote for robot-human interaction.
+				</p>
+			</aside>
+			
+			<aside class="content">
+				<h3>PlateRate Project</h3>
+				<p>Awarded Best UI/UX Hack in Tech Together Boston 2019</p>
+				<p>
+				Prototype of an iOS app<br>
+				This project was created to let users search by food names instead of
+				restaurant names. Users can also rate the foods by tags<br>
+				Created by me, Amanda Yeh, Avah Au-Yeung, Delaine Rogers, Dolma Gurung,
+				Jennifer Vijay <br>
+				</p>
+			</aside>
+			
+			<aside>
+				<h3>Other Projects</h3>
+				<p>I have listed the links to other projects that I have worked on below:</p>
+				<ul>
+					<li><a href="https://sites.google.com/view/karmatgurung">Another version of my Portfolio</a></li>
+					<li><a href="https://repl.it/@KarmaGrg/atmMachine#Main.java">ATM Machine using Swing</a></li>
+					<li><a href="https://github.com/karmagurung07/LCS_LandingPage"></a>Landing Page</li>
+					<li><a href="https://repl.it/@KarmaGrg/MortgageApp#main.py">Mortgage Desktop Application using PyQt5</a></li>
+					<li><a href="https://repl.it/@KarmaGrg/mortgage#main.py">Mortgage Desktop Application using Tkinker</a></li>
+					<li><a href="https://repl.it/@KarmaGrg/chatbotnltk#main.py"></a>Chatbot using Nltk</li>
+					<li><a href="https://repl.it/@KarmaGrg/VirgoConstellation#main.py">Virgo Constellation</a></li>
+					<li><a href="https://repl.it/@KarmaGrg/turtleRace#main.py">Turtle Race</a></li>
+				</ul>
+			</aside>
+			
+			</section>
+			
+			<section class="contactMe">
+			<h3><a href="#">Contact Me</a></h3>
+			<a href="https://www.linkedin.com/in/karmatgurung">LinkedIn</a>
+			<a href="https://github.com/karmagurung07"> GitHub</a>
+			</section>
+			
+			<nav>
+				<ul>
+					<li>
+						<a title="Home" href="#">Home</a>
+					</li>
+					<li>
+						<a title="About Me" href="#">About Me</a>
+					</li>
+					<li>
+						<a title="IT Interest" href="#">IT Interest</a>
+					</li>
+					<li>
+						<a title="IT Skilss" href="#">IT Skills</a>
+					</li>
+					<li>
+						<a title="Experience" href="#">Experience</a>
+						<ul>
+							<li>
+								<a title="Peer Mentor" href="#">Peer Mentor</a>
+							</li>
+							<li>
+								<a title="WiTNY Project" href="#">WiTNY Project</a>
+							</li>
+							<li>
+								<a title="PlateRate Project" href="#">PlateRate Project</a>
+							</li>
+							<li>
+								<a title="Other Projects" href="#">Other projects</a>
+							</li>
+						</ul> 
+					</li>
+					<li>
+						<a title="Contact Me" href="#">Contact Me</a>
+					</li>
+				</ul>
+			</nav>
+           <hr>
+			
+			<footer>
+				<p>"We become what we think about."-Earl Nightangale</p>
+			</footer>
+	
+	<script src="script.js"></script>
+	
+</body>
+</html>
